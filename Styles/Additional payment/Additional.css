@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+* {
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* header starts here*/
+.headerp1 {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(236, 236, 236);
+}
+.logo {
+  position: absolute;
+  width: 20%;
+  top: 0%;
+  left: 0%;
+}
+.logoimg {
+  width: 100%;
+}
+
+.navlinks {
+  position: absolute;
+  width: 30%;
+  top: 25%;
+  left: 25%;
+}
+.navigation_links li {
+  display: inline;
+}
+
+.navigation_links li button {
+  cursor: pointer;
+  background-color: transparent;
+  color: rgba(5, 36, 109, 0.452);
+  border: none;
+  padding: 1%;
+  transition: all 0.3s ease 0s;
+}
+.navigation_links li button:hover {
+  background-color: white;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  text-decoration-thickness: 3px;
+  transition: all 0.3s ease 0s;
+}
+.search {
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  top: 30%;
+  left: 60%;
+}
+.topnav {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  padding: 1% 3%;
+}
+
+.loginbutton {
+  position: absolute;
+  width: 7%;
+  height: 30%;
+  left: 92%;
+  top: 10%;
+}
+.loginbutton button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 4px;
+  background-color: #b9b9b980;
+  border: none;
+  color: gba(5, 36, 109, 0.452);
+  text-align: left;
+  font-size: 90%;
+}
+
+.loginbutton button:hover {
+  text-align: center;
+}
+
+.headerp2 {
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  height: 6%;
+}
+
+.categorybtns {
+  display: inline;
+  height: 100%;
+  width: 100%;
+}
+.categorybtns li {
+  display: inline;
+}
+
+.headerp2 img {
+  position: absolute;
+  left: 0%;
+  top: 16%;
+  width: 2%;
+}
+
+.catagory {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 100%;
+}
+
+.categorybtns button {
+  color: rgb(240, 235, 235);
+
+  background-color: rgb(40, 40, 40);
+  padding: 0.5% 2% 0.5% 2%;
+  margin-left: 1%;
+
+  border: none;
+  border-radius: 6px;
+
+  transition: all 0.3s ease 0s;
+}
+.categorybtns button:hover {
+  cursor: pointer;
+  color: rgb(8, 8, 8);
+  background-color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  width: 20%;
+}
+/* header ends here*/
+
+main {
+  position: absolute;
+  top: 23%;
+  left: 0;
+  width: 100%;
+}
+
+/*main page begins here*/
+
+/* Background */
+body {
+  background-color: rgb(202, 202, 202);
+  width: 100%;
+}
+
+/* Header section */
+.header {
+  padding: 2%;
+  text-align: center;
+  background: #0a0035;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+}
+
+/* Container section */
+h2 {
+  margin: 16px;
+}
+
+.container1 {
+  color: black;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+/* Select-box section */
+.select-box {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+/* Selected-box and Options container sections */
+.select-box .options-container {
+  background: #b9d6ff;
+  color: #000000;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.selected {
+  background: #e1edff;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #000000;
+  position: relative;
+
+  order: 0;
+}
+
+.select-box .options-container.active {
+  max-height: 240px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.select-box .option,
+.selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.select-box .option:hover {
+  background: #7eb8ff;
+}
+
+.select-box label {
+  cursor: pointer;
+}
+
+.select-box .option .radio {
+  display: none;
+}
+/* Container section ends*/
+
+/* Full-width input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* for all buttons */
+main button {
+  background-color: #000000;
+  color: #fff;
+  padding: 15px 0;
+  margin: 1% 1% 1% 35%;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #8aaca8;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  overflow: hidden;
+  position: relative;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cnfbtn {
+  left: 9%;
+  width: 25%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  margin-right: 0;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cnfbtn {
+    width: 100%;
+  }
+}
+/*main page endns here*/
+
+/*Footer begins here*/
+
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: absolute;
+  height: auto;
+  top: 120%;
+  background-color: #070617;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(180, 180, 180, 0.979);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.social ul li {
+  display: inline;
+  padding-right: 5px !important;
+}
+
+.footer h1 {
+  color: aliceblue;
+}
+
+.payment-icon {
+  display: flex;
+  padding: 50px;
+  margin: 50px;
+  justify-content: space-between;
+  padding-right: 5px !important;
+}
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer .col {
+    width: 50%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 300px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+.fa-cc-visa {
+  padding-right: 60px;
+}
+.fa-credit-card {
+  padding-right: 60px;
+}
+.fa-paypal {
+  padding-right: 70px;
+}
+.fa-cc-paypal {
+  padding-right: 60px;
+}
+.fa-cc-mastercard {
+  padding-right: 60px;
+}
+.fa-cc-discover {
+  padding-right: 60px;
+}
+.fa-cc-amex {
+  padding-right: 60px;
+}
+/*Footer ends here*/
+.username {
+  position: absolute;
+  top: 60%;
+  left: 87%;
+}
+.username {
+  color: red;
+}

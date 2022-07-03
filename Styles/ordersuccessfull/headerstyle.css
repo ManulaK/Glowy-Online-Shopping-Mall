@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(236, 236, 236);
+}
+
+.logo {
+  width: 20%;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+.navigation_links {
+  background-color: transparent;
+  display: inline-flex;
+}
+.navigation_links li {
+  background-color: transparent;
+
+  margin: 10% 3% 3% 3%;
+}
+
+.navigation_links li button {
+  background-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: solid;
+  color: rgba(5, 36, 109, 0.452);
+  border: none;
+}
+
+.topnav {
+  border-radius: 25px;
+
+  padding: 10px;
+  margin-top: 30px;
+  padding-left: 40px;
+  padding-right: 100px;
+}
+
+.button_list li button {
+  border-radius: 4px;
+  background-color: #b9b9b980;
+  border: none;
+  color: gba(5, 36, 109, 0.452);
+  text-align: center;
+  font-size: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.1s;
+  cursor: pointer;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
+.button_list li button:hover {
+  padding-left: 1px;
+  padding-right: 19px;
+}

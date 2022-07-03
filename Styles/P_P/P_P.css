@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(255, 255, 255, 0.952);
+
+}
+.firstpara{
+    float: right;
+    margin: 0% 50% 0 5%;
+    font-size: 120%;
+    text-align: justify;
+    font-weight:lighter;
+}
+.head{
+    margin: 10% 0% 0% 5%;
+    letter-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkmagenta;
+}
+.head:hover{
+    cursor: pointer;
+    letter-spacing: 8px;
+}
+.pimage{
+    border-radius: 15px;
+    position:absolute;
+    width: 43%;
+    left: 55%;
+    top: 25%;
+}
+.pimage:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+
+  }
+
+button{
+    width:10%;
+    left: 8%;
+    padding:0.7% 0;
+    text-align:center;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid  rgb(124, 123, 124);
+    background:transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;
+
+}
+span{
+background: rgb(218, 218, 218);
+height: 100%;
+width:0;
+border-radius: 25px;
+position:absolute;
+left: 0;
+bottom: 0;
+z-index: -1;
+transition: 0.5s;
+}
+button:hover span{width: 100%;}
+
+utton:hover{border: none;}

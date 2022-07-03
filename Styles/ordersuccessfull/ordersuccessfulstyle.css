@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 8px;
+  background-image: linear-gradient(to right, rgba(52, 235, 103), rgba(18, 24, 64));
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -1px;
+  
+}
+
+.row {
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 1;
+}
+.col-75 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  padding: 0px 100px;
+}
+
+.container {
+  background-color: #e6e3e3;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+
+
+.msg{
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 250px ;
+   
+}
+
+
+.topnav {
+  overflow: hidden;
+ 
+  margin-left: 0%;
+  border:none;
+  
+  
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 50px;
+  
+}
+
+.topnav a:hover {
+  background-color: rgb(241, 239, 239);
+  color: rgba(5, 36, 109, 0.452);
+}
+
+
+.topnav-right {
+  position: absolute;
+  left: 75%;
+  bottom: 10%;
+  
+  
+  
+}
+
+.btn{
+  border-radius: 50px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.lachitha{
+
+margin-top: 200px;
+
+}
+
+
+
+
+.loader{
+position: fixed;
+top: 0;
+left: 0;
+background: rgb(241, 241, 241);
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+.disppear{
+animation: vanish 1s forwards;
+}
+@keyframes vanish {
+100%{
+  opacity: 90%;
+  visibility: hidden;
+}
+}
+
+

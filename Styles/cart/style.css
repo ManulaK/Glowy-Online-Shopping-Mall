@@ -1,0 +1,227 @@
+.title1 {
+  color: black;
+
+  padding: 1% 30%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-size: 19px;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(18, 24, 64),
+    rgba(52, 235, 103)
+  );
+}
+
+table {
+  text-align: left;
+  color: #000000;
+  background-color: #ffffff;
+
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+th {
+  height: 50px;
+  width: 20%;
+  background-color: #04aa6d;
+  color: rgb(0, 0, 0);
+  padding: 1em;
+  border-bottom: 2px solid white;
+}
+td {
+  height: 50px;
+  border: 1px solid #ddd;
+  padding: 1em;
+  background: #ddd;
+}
+
+.total {
+  background-color: rgba(122, 106, 106, 0.445);
+  text-align: right;
+}
+
+.table {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  border-radius: 1em;
+}
+.btndel {
+  cursor: pointer;
+  width: 62px;
+  height: 50px;
+  background-color: red;
+}
+
+.img {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  opacity: 80%;
+  width: 10%;
+}
+
+.shopping {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header starts here*/
+.headerp1 {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(236, 236, 236);
+}
+.logo {
+  position: absolute;
+  width: 20%;
+  top: 0%;
+  left: 0%;
+}
+.logoimg {
+  width: 100%;
+}
+
+.navlinks {
+  position: absolute;
+  width: 30%;
+  top: 25%;
+  left: 25%;
+}
+.navigation_links li {
+  display: inline;
+}
+
+.navigation_links li button {
+  cursor: pointer;
+  background-color: transparent;
+  color: rgba(5, 36, 109, 0.452);
+  border: none;
+  padding: 1%;
+  transition: all 0.3s ease 0s;
+}
+.navigation_links li button:hover {
+  background-color: white;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  text-decoration-thickness: 3px;
+  transition: all 0.3s ease 0s;
+}
+.search {
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  top: 30%;
+  left: 60%;
+}
+.topnav {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  padding: 1% 3%;
+}
+
+.loginbutton {
+  position: absolute;
+  width: 7%;
+  height: 30%;
+  left: 92%;
+  top: 10%;
+}
+.loginbutton button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 4px;
+  background-color: #b9b9b980;
+  border: none;
+  color: gba(5, 36, 109, 0.452);
+  text-align: left;
+  font-size: 90%;
+}
+
+.loginbutton button:hover {
+  text-align: center;
+}
+
+.headerp2 {
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  height: 6%;
+}
+
+.categorybtns {
+  display: inline;
+  height: 100%;
+  width: 100%;
+}
+.categorybtns li {
+  display: inline;
+}
+
+.headerp2 img {
+  position: absolute;
+  left: 0%;
+  top: 16%;
+  width: 2%;
+}
+
+.catagory {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 100%;
+}
+
+.categorybtns button {
+  color: rgb(240, 235, 235);
+
+  background-color: rgb(40, 40, 40);
+  padding: 0.5% 2% 0.5% 2%;
+  margin-left: 1%;
+
+  border: none;
+  border-radius: 6px;
+
+  transition: all 0.3s ease 0s;
+}
+.categorybtns button:hover {
+  cursor: pointer;
+  color: rgb(8, 8, 8);
+  background-color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  width: 20%;
+}
+
+.username {
+  position: absolute;
+  top: 60%;
+  left: 87%;
+}
+.username {
+  color: red;
+}
