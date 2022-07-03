@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sign Up page</title>
+        <link rel="Stylesheet" href="Styles/SignUp/SignUp.css">
+        <script src="JS/SignUp/SignUp.js"></script>
+    </head>
+
+    <body>
+        <center>
+            <h1>GLOWY SHOPPING</h1>
+            <h2>Sign Up</h2>
+        </center>
+
+            <br>
+            <form action="SignUp.php" method="POST">
+                <div class="container">
+                    <p align= center><b>Please fill in this form to create an account.</b></p>
+                    <hr>
+
+                    <label for="first">First-name</label>
+                    <input type="text" id="first" placeholder="Enter first name" name="first" required><br>
+                    <br>
+
+                    <label for="last">Last-name</label>
+                    <input type="text" id="last" placeholder="Enter last name" name="last" required><br>
+                    <br>
+
+                    <label for="last">User-name</label>
+                    <input type="text" id="username" placeholder="Enter username" name="username" required><br>
+                    <br>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter email" name="email" required><br>
+                    <br>
+
+                    <label for="psw">Password</label>
+                    <input type="password" id="pwd" placeholder="Enter password" name="psw" required><br>
+                    <br>
+
+                    <label for="confirmpassword">Re-Enter the Password</label>
+                    <input type="password" id="cnfrm_pass" placeholder="Repeat Password" name="confirmpassword" required><br>
+        
+                    
+                    <div class="rem">
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                        </label>
+                    </div>
+        
+                    <input type="checkbox" id="ckbx" onclick="enableButton();" required>
+                    <label for="policy">Accept  <a href="P&P.php">Terms & Privacy</a></label> <br>
+                    <br>
+
+                    <div class="submit">
+                        <button type="submit" class="signupbtn" name="submit">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <p class="p3"> Already have an Account? <a href="login.php">log in</a></p>
+    </body>
+</html>

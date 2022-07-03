@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seller Login</title>
+    <link rel="stylesheet" href="Styles/All items/normalize.css" />
+    <link rel="stylesheet" href="Styles/Seller Log in/SellerLogin.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        src="images/All items/onlinelogomaker-091721-1248-1692-2000-transparent.png"
+        alt="glowy shopping mall logo"
+      />
+      <p>
+        Don't have a seller account? <a href="SellerSignup.html">Sign up</a>
+      </p>
+    </div>
+    <h1 class="header1">Sign in</h1>
+
+    <div class="container">
+      <p>Please fill in your information to continue</p>
+      <hr />
+      <form method="POST" action="SellerLogin.php">
+        <input
+          type="text"
+          placeholder="Username"
+          name="username"
+          id="Last-Name"
+          required
+        />
+
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          id="psw"
+          required
+        />
+
+        <hr />
+        <p>
+          By login in you agree to our <a href="P&P.php">Terms & Privacy</a>.
+        </p>
+
+        <button type="submit" name="submit" class="registerbtn">Sign in</button>
+      </form>
+    </div>
+  </body>
+</html>
