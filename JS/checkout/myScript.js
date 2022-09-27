@@ -8,4 +8,3 @@ function enableButton(){
         document.getElementById("submitBtn").disabled=true;
     }
 }
-
