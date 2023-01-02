@@ -110,6 +110,7 @@ if($count == 0)
          while ($row = $result->fetch_assoc()):
       ?>
 
+   
      <li><div class="card">
          <img src="<?= $row['product_image'] ?>" alt="Denim Jeans" style="width:100%">
          <h3 class = "pname"><?= $row['product_name'] ?></h3>
