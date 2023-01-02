@@ -255,6 +255,7 @@ if($count == 0)
         <li>privacy</li>
         <li>Get in touch</li>
       </ul>
+     
 
     </div><div class="col">
       <h1>Products</h1>
