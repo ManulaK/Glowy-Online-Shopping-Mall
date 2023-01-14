@@ -113,7 +113,7 @@
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
           
         <input type="submit" value="Submit" name = "submit" onclick = "push()">
-      
+     
         </form>
         </div>
       </div>
